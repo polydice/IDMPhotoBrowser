@@ -1154,6 +1154,8 @@ NSLocalizedStringFromTableInBundle((key), nil, [NSBundle bundleWithPath:[[NSBund
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
 	// Update toolbar when page changes
 	if(! _arrowButtonsChangePhotosAnimated) [self updateToolbar];
+  // Show controls when dragging ends
+  [self setControlsHidden:NO animated:YES permanent:NO];
 }
 
 #pragma mark - Toolbar
