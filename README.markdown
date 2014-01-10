@@ -1,3 +1,12 @@
+# What Does This Fork Do?
+- Support all orientations
+- Support iOS 6 and rollback to AFNetworking 1.3.x
+- Show controls when slide to another photo
+
+
+-----------------------------------------------------------------------------
+
+
 # IDMPhotoBrowser ![](http://cocoapod-badges.herokuapp.com/v/IDMPhotoBrowser/badge.png) ![](http://cocoapod-badges.herokuapp.com/p/IDMPhotoBrowser/badge.png)
 
 IDMPhotoBrowser is a new implementation based on [MWPhotoBrowser](https://github.com/mwaterfall/MWPhotoBrowser).
