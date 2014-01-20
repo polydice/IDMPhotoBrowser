@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source        =  { :git => "https://github.com/polydice/IDMPhotoBrowser.git", :tag => "1.3.2" }
   s.platform      =  :ios, '6.0'
   s.source_files  =  'Classes/*.{h,m}'
-  s.resources     =  'Classes/IDMPhotoBrowser.bundle'
+  s.resources     =  'Classes/IDMPhotoBrowser.bundle', 'Classes/IDMPBLocalizations.bundle'
   s.framework     =  'MessageUI', 'QuartzCore', 'SystemConfiguration', 'MobileCoreServices', 'Security'
   s.requires_arc  =  true
   s.dependency       'AFNetworking', '~> 1.3.3'
